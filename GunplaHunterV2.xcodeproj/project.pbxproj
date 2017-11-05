@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CAE3C271FAEC7ED0002E8ED /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE3C261FAEC7ED0002E8ED /* RatingControl.swift */; };
+		900DC6041FA9C4B3004235BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900DC6031FA9C4B3004235BC /* AppDelegate.swift */; };
+		900DC6061FA9C4B3004235BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900DC6051FA9C4B3004235BC /* ViewController.swift */; };
+		900DC6091FA9C4B3004235BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900DC6071FA9C4B3004235BC /* Main.storyboard */; };
+		900DC60C1FA9C4B3004235BC /* GunplaHunterV2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 900DC60A1FA9C4B3004235BC /* GunplaHunterV2.xcdatamodeld */; };
+		900DC60E1FA9C4B3004235BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900DC60D1FA9C4B3004235BC /* Assets.xcassets */; };
+		900DC6111FA9C4B3004235BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900DC60F1FA9C4B3004235BC /* LaunchScreen.storyboard */; };
+		900DC61C1FA9C4B3004235BC /* GunplaHunterV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900DC61B1FA9C4B3004235BC /* GunplaHunterV2Tests.swift */; };
+		900DC6291FAA187A004235BC /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900DC6281FAA187A004235BC /* MenuVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		900DC6181FA9C4B3004235BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 900DC5F81FA9C4B3004235BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 900DC5FF1FA9C4B3004235BC;
+			remoteInfo = GunplaHunterV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CAE3C261FAEC7ED0002E8ED /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		900DC6001FA9C4B3004235BC /* GunplaHunterV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GunplaHunterV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		900DC6031FA9C4B3004235BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		900DC6051FA9C4B3004235BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		900DC6081FA9C4B3004235BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		900DC60B1FA9C4B3004235BC /* GunplaHunterV2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GunplaHunterV2.xcdatamodel; sourceTree = "<group>"; };
+		900DC60D1FA9C4B3004235BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		900DC6101FA9C4B3004235BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		900DC6121FA9C4B3004235BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900DC6171FA9C4B3004235BC /* GunplaHunterV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GunplaHunterV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		900DC61B1FA9C4B3004235BC /* GunplaHunterV2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunplaHunterV2Tests.swift; sourceTree = "<group>"; };
+		900DC61D1FA9C4B3004235BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900DC6281FAA187A004235BC /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		900DC5FD1FA9C4B3004235BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900DC6141FA9C4B3004235BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		900DC5F71FA9C4B3004235BC = {
+			isa = PBXGroup;
+			children = (
+				900DC6021FA9C4B3004235BC /* GunplaHunterV2 */,
+				900DC61A1FA9C4B3004235BC /* GunplaHunterV2Tests */,
+				900DC6011FA9C4B3004235BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		900DC6011FA9C4B3004235BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				900DC6001FA9C4B3004235BC /* GunplaHunterV2.app */,
+				900DC6171FA9C4B3004235BC /* GunplaHunterV2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		900DC6021FA9C4B3004235BC /* GunplaHunterV2 */ = {
+			isa = PBXGroup;
+			children = (
+				900DC6031FA9C4B3004235BC /* AppDelegate.swift */,
+				2CAE3C261FAEC7ED0002E8ED /* RatingControl.swift */,
+				900DC6281FAA187A004235BC /* MenuVC.swift */,
+				900DC6051FA9C4B3004235BC /* ViewController.swift */,
+				900DC6071FA9C4B3004235BC /* Main.storyboard */,
+				900DC60D1FA9C4B3004235BC /* Assets.xcassets */,
+				900DC60F1FA9C4B3004235BC /* LaunchScreen.storyboard */,
+				900DC6121FA9C4B3004235BC /* Info.plist */,
+				900DC60A1FA9C4B3004235BC /* GunplaHunterV2.xcdatamodeld */,
+			);
+			path = GunplaHunterV2;
+			sourceTree = "<group>";
+		};
+		900DC61A1FA9C4B3004235BC /* GunplaHunterV2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				900DC61B1FA9C4B3004235BC /* GunplaHunterV2Tests.swift */,
+				900DC61D1FA9C4B3004235BC /* Info.plist */,
+			);
+			path = GunplaHunterV2Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		900DC5FF1FA9C4B3004235BC /* GunplaHunterV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900DC6201FA9C4B3004235BC /* Build configuration list for PBXNativeTarget "GunplaHunterV2" */;
+			buildPhases = (
+				900DC5FC1FA9C4B3004235BC /* Sources */,
+				900DC5FD1FA9C4B3004235BC /* Frameworks */,
+				900DC5FE1FA9C4B3004235BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GunplaHunterV2;
+			productName = GunplaHunterV2;
+			productReference = 900DC6001FA9C4B3004235BC /* GunplaHunterV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		900DC6161FA9C4B3004235BC /* GunplaHunterV2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900DC6231FA9C4B3004235BC /* Build configuration list for PBXNativeTarget "GunplaHunterV2Tests" */;
+			buildPhases = (
+				900DC6131FA9C4B3004235BC /* Sources */,
+				900DC6141FA9C4B3004235BC /* Frameworks */,
+				900DC6151FA9C4B3004235BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				900DC6191FA9C4B3004235BC /* PBXTargetDependency */,
+			);
+			name = GunplaHunterV2Tests;
+			productName = GunplaHunterV2Tests;
+			productReference = 900DC6171FA9C4B3004235BC /* GunplaHunterV2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		900DC5F81FA9C4B3004235BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Francis Jemuel Bergonia";
+				TargetAttributes = {
+					900DC5FF1FA9C4B3004235BC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					900DC6161FA9C4B3004235BC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 900DC5FF1FA9C4B3004235BC;
+					};
+				};
+			};
+			buildConfigurationList = 900DC5FB1FA9C4B3004235BC /* Build configuration list for PBXProject "GunplaHunterV2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 900DC5F71FA9C4B3004235BC;
+			productRefGroup = 900DC6011FA9C4B3004235BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				900DC5FF1FA9C4B3004235BC /* GunplaHunterV2 */,
+				900DC6161FA9C4B3004235BC /* GunplaHunterV2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		900DC5FE1FA9C4B3004235BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900DC6111FA9C4B3004235BC /* LaunchScreen.storyboard in Resources */,
+				900DC60E1FA9C4B3004235BC /* Assets.xcassets in Resources */,
+				900DC6091FA9C4B3004235BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900DC6151FA9C4B3004235BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		900DC5FC1FA9C4B3004235BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900DC6061FA9C4B3004235BC /* ViewController.swift in Sources */,
+				900DC6291FAA187A004235BC /* MenuVC.swift in Sources */,
+				900DC60C1FA9C4B3004235BC /* GunplaHunterV2.xcdatamodeld in Sources */,
+				2CAE3C271FAEC7ED0002E8ED /* RatingControl.swift in Sources */,
+				900DC6041FA9C4B3004235BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900DC6131FA9C4B3004235BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900DC61C1FA9C4B3004235BC /* GunplaHunterV2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		900DC6191FA9C4B3004235BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 900DC5FF1FA9C4B3004235BC /* GunplaHunterV2 */;
+			targetProxy = 900DC6181FA9C4B3004235BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		900DC6071FA9C4B3004235BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				900DC6081FA9C4B3004235BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		900DC60F1FA9C4B3004235BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				900DC6101FA9C4B3004235BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		900DC61E1FA9C4B3004235BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		900DC61F1FA9C4B3004235BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		900DC6211FA9C4B3004235BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GunplaHunterV2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiApps.GunplaHunterV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		900DC6221FA9C4B3004235BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GunplaHunterV2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiApps.GunplaHunterV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		900DC6241FA9C4B3004235BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GunplaHunterV2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiApps.GunplaHunterV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GunplaHunterV2.app/GunplaHunterV2";
+			};
+			name = Debug;
+		};
+		900DC6251FA9C4B3004235BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GunplaHunterV2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiApps.GunplaHunterV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GunplaHunterV2.app/GunplaHunterV2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		900DC5FB1FA9C4B3004235BC /* Build configuration list for PBXProject "GunplaHunterV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900DC61E1FA9C4B3004235BC /* Debug */,
+				900DC61F1FA9C4B3004235BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900DC6201FA9C4B3004235BC /* Build configuration list for PBXNativeTarget "GunplaHunterV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900DC6211FA9C4B3004235BC /* Debug */,
+				900DC6221FA9C4B3004235BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900DC6231FA9C4B3004235BC /* Build configuration list for PBXNativeTarget "GunplaHunterV2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900DC6241FA9C4B3004235BC /* Debug */,
+				900DC6251FA9C4B3004235BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		900DC60A1FA9C4B3004235BC /* GunplaHunterV2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				900DC60B1FA9C4B3004235BC /* GunplaHunterV2.xcdatamodel */,
+			);
+			currentVersion = 900DC60B1FA9C4B3004235BC /* GunplaHunterV2.xcdatamodel */;
+			path = GunplaHunterV2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 900DC5F81FA9C4B3004235BC /* Project object */;
+}
